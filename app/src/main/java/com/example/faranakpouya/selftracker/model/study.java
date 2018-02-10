@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 import com.example.faranakpouya.selftracker.R;
 
-public class Study extends AppCompatActivity {
+public class study extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

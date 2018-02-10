@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".model.goals" />
         <activity android:name=".model.water" />
-        <activity android:name=".model.Study"></activity>
+        <activity android:name=".model.study" />
+        <activity android:name=".model.exercise"></activity>
     </application>
 
 </manifest>
