@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".model.goals"></activity>
+        <activity android:name=".model.goals" />
+        <activity android:name=".model.water" />
+        <activity android:name=".model.Study"></activity>
     </application>
 
 </manifest>
