@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.faranakpouya.selftracker.DailyInput;
 import com.example.faranakpouya.selftracker.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -14,15 +15,27 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        createButton();
+        createButtonGoals();
+        createButtonDaily();
     }
 
-    private void createButton(){
+    private void createButtonGoals(){
         Button start = (Button) findViewById(R.id.btn_start);
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent goals = new Intent(MainActivity.this, goals.class);
+                startActivity(goals);
+            }
+        });
+    }
+
+    private void createButtonDaily(){
+        Button start = (Button) findViewById(R.id.buttonD);
+        start.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent goals = new Intent(MainActivity.this, DailyInput.class);
                 startActivity(goals);
             }
         });
