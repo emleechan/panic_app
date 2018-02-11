@@ -19,7 +19,9 @@
         <activity android:name=".model.goals" />
         <activity android:name=".model.water" />
         <activity android:name=".model.study" />
-        <activity android:name=".model.exercise"></activity>
+        <activity android:name=".model.exercise" />
+        <activity android:name=".DailyInput" />
+        <activity android:name=".DailyStudy"></activity>
     </application>
 
 </manifest>
